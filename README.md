@@ -26,5 +26,11 @@ The Verilog module fir_filter consists of input x (8-bit signed data), a clock s
 
 The testbench tb_fir_filter verifies the design by providing a sequence of input samples while observing the output. A clock signal with a period of 10 ns is generated using always #5 clk = ~clk;. The $dumpfile and $dumpvars commands are used to generate a dump.vcd file that allows waveform viewing in EPWave on EDA Playground. The $monitor statement prints the current time, input value x, and filter output y during the simulation. The test sequence applies input values 1, 2, 3, 4, and 5 at 10 ns intervals, which helps observe the filter’s convolution behavior. Initially, as the pipeline of the filter fills up, the output grows with each sample until all taps contribute to the result.
 
+OUTPUT 
+
+
+<img width="1360" height="634" alt="Image" src="https://github.com/user-attachments/assets/54bced24-b4ec-478c-9e6d-3951c5eaa6d1" />
+
+<img width="1362" height="635" alt="Image" src="https://github.com/user-attachments/assets/6cbd4723-c181-4632-996e-f6db3928eb7c" />
 
 

@@ -16,6 +16,7 @@ MENTOR : NEELA SANTOSH
 DESCRIPTION:
 
 Filter1 is verilog and runned by EDA PLAYGROUND
+
 Filter2 is testbench and runned by EDA PLAYGROUND
 
  A Finite Impulse Response (FIR) filter is one of the most commonly used digital filters in signal processing due to its simplicity, stability, and linear phase response. FIR filters produce an output that is a weighted sum of the current and a finite number of previous input samples. The weights applied to the samples are called filter coefficients, which define the behavior of the filter (e.g., low-pass, high-pass). In this design, a simple 4-tap FIR filter is implemented using Verilog, where each tap represents one delayed version of the input signal multiplied by a corresponding coefficient. The filter follows the equation:
